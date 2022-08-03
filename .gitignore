@@ -1,0 +1,26 @@
+# 가상 환경
+venv/
+
+# 파이썬 기본
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+.idea/
+.pytest_cache
+
+# 주피터
+.ipynb_checkpoints/
+
+# 환경 변수
+env/
+vhost/
+
+# 데이터베이스
+sqlite.db
+test.db
+*.sqlite
+*.sqlite3
+
+# 셀러리
+celerybeat-schedule*
